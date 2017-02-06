@@ -13,20 +13,20 @@ Feel free to use your workstation to test your answers to the questions that don
 ==========
 1. Write the command that you would use to change to the root directory.
 ----------
-ent-v314-005:~ student$ cd /
-ent-v314-005:/ student$ 
+cd /
+
 
 ==========
 2. Write the command that you would use to change to your home directory.
 ----------
-ent-v314-005:/ student$ cd ~
-ent-v314-005:~ student$ 
+cd ~
+
 
 ==========
 3. Write the command that you would use to change to your Desktop folder.
 ----------
-ent-v314-005:~ student$ cd Desktop
-ent-v314-005:Desktop student$ 
+cd Desktop
+
 
 ==========
 4. What's the absolute path to your home directory?
@@ -54,8 +54,8 @@ ent-v314-005:Desktop student$
 ==========
 8. If you're in your home directory, how would you create a new directory on your desktop called stuff without changing your directory?  Write your command below.
 ----------
-ent-v314-005:Desktop student$ mkdir -p Desktop/Stuff
-ent-v314-005:Desktop student$ 
+mkdir -p Desktop/Stuff
+
 
 ==========
 9. If you're in your root directory, how would you create a new directory on your desktop called more-stuff without changing your directory?  Write your command below.
