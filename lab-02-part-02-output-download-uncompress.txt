@@ -155,8 +155,7 @@ curl -o mtec1002-lab-02.zip http://foureyes.github.io/mtec1002-spring2014/labs/0
 
 Write down the command that you used to uncompress the file.
 ----------
-
-
+unzip mtec1002-lab-02.zip
 
 ==========
 15. Change to the directory that was just created.  List the contents (of the directory that was extracted from the labs .zip file). 
