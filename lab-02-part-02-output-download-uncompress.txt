@@ -1,3 +1,5 @@
+books	logs	web
+
 Lab - Output, Download and Uncompress
 ==========
 Follow the instructions line-by-line.  
@@ -162,8 +164,7 @@ unzip mtec1002-lab-02.zip
 
 Copy and paste the output below.
 ----------
-
-
+books	logs	web
 
 ==========
 We're going to mess around with archiving and compressing files.  We'll make a directory with a file in it... archive and compress it.... and uncompress it elsewhere.
