@@ -174,7 +174,10 @@ We're going to mess around with archiving and compressing files.  We'll make a d
 
 Copy and paste the output below.
 ----------
-
+Adlm			Documents		Music
+Applications		Downloads		Pictures
+Creative Cloud Files	Library			Public
+Desktop			Movies			Sites
 
 
 ==========
@@ -186,9 +189,8 @@ List the files in the directory you're currently in (which should be stuff).
 
 Copy and paste the output below.
 ----------
-
-
-
+ent-v314-007:stff student$ echo "hi" > hello.txt
+ent-v314-007:stff student$
 ==========
 18. Go up one directory back into your home directory.  Run the following commands exactly to create a compressed archive of the stuff folder.
 
@@ -198,7 +200,8 @@ List the files in the directory you're currently in (which should be home).
 
 Copy and paste the output below.
 ----------
-
+a stuff
+a stuff/hello.txt
 
 
 ==========
@@ -208,7 +211,10 @@ $ tar -cvf stuff.tar stuff
 
 Copy and paste the output below.
 ----------
-
+Adlm			Documents		Music
+Applications		Downloads		Pictures
+Creative Cloud Files	Library			Public
+Desktop			Movies			Sites
 
 
 ==========
@@ -216,8 +222,10 @@ Copy and paste the output below.
 
 Copy and paste the output below. (It should contain stuff.tar)
 ----------
-
-
+Adlm			Documents		Music
+Applications		Downloads		Pictures
+Creative Cloud Files	Library			Public
+Desktop			Movies			Sites
 
 ==========
 21. Now compress it!  Type:
@@ -226,7 +234,7 @@ gzip stuff.tar
 
 List your files again.... you should have a new file with a .gz extension.  Copy and paste the output of your this below.
 ----------
-
+books             logs            stuff             stuff.tar.gz              web
 
 
 ==========
@@ -240,7 +248,7 @@ Change your directory to mtec1002-lab-02.
 
 List the files.  Copy and paste the output below (stuff.tar.gz should be there).
 ----------
-
+books             logs            stuff             stuff.tar.gz        web
 
 ==========
 23. You should be in the lab directory.  Let's uncompress the file.
